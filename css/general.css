@@ -21,26 +21,36 @@ html {
     font-size: 100%;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+header {
+    background-color: darkblue;
+}
+
 img {
 	width: 100%;
     display: block;
 }
 
 .logo {
-    width: 4.5rem;
+    width: 10rem;
     height: auto;
     float: left;
     margin: 1.5rem 5%;
 }
 
 .nav-top {
-    clear: both;
+    clear: both
 }
 
 .nav-top ul {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: blue;
     text-align: center;
 }
     
@@ -56,13 +66,13 @@ img {
     display: inline-block;
     margin: 0;
     padding: 1.5rem 10%;
-    color: white;
+    color: lightgrey;
     font-size: 1.25rem;
     text-decoration: none;
 }
 
 .selected {
-    background-color: #666;
+    background-color: lightgrey;
 }
 
 article {
@@ -81,6 +91,11 @@ figure {
     width: 50%
 }
 
+figcaption {
+    font-size: .75rem;
+    margin: .5rem 0 0
+}
+
 figure a,
 figure a.link,
 figure a:visited {
@@ -92,7 +107,7 @@ figure a:visited {
 footer {
     margin: 0;
     padding: 1.5rem 5% 6rem;
-    background-color: red;
+    background-color: blue;
 }
 
 .nav-bottom ul {
