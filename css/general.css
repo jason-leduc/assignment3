@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    background-image: image(header.jpg);
+    background-image: url(..images/header.svg);
 }
 
 .logo {
@@ -40,6 +40,7 @@ header {
     height: auto;
     float: left;
     margin: 1.5rem 5%;
+   
 }
 
 .nav-top {
@@ -48,6 +49,7 @@ header {
 
 header {
     background-color: blue;
+    background-image: url(../images/header.svg);
 }
 
 .nav-top ul {
@@ -105,7 +107,7 @@ figure a:visited {
 footer {
     margin: 0;
     padding: 1.5rem 5% 6rem;
-    background-color: darkblue;
+    background-image: url(../images/header.svg);
 }
 
 .nav-bottom ul {
@@ -138,6 +140,11 @@ footer {
     border-radius: 1.25rem;
 }
 
+figcaption {
+    font-size: .75rem;
+    padding: .5rem 5%;
+}
+
 .nintendo-3ds {
     margin: 0 5% 3rem;
     overflow: hidden;
@@ -154,10 +161,7 @@ footer {
     border-radius: 1.25rem;
 }
 
-figcaption {
-    font-size: .75rem;
-    padding: .5rem 5%;
-}
+
 
 
 
