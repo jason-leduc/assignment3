@@ -22,15 +22,165 @@ html {
     font-size: 100%;
 }
 
-body { 
-    font-family: Helvetica, Georgia, sans-serif;
+img {
+    width: 100%;
+    display: block;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto; 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
 }
 
-#main {
-    background: url(images/header.jpg) repeat-x;
+header {
+    background-image: image(header.jpg);
 }
+
+.logo {
+    width: 10rem;
+    height: auto;
+    float: left;
+    margin: 1.5rem 5%;
+}
+
+.nav-top {
+    clear: both;
+}
+
+header {
+    background-color: blue;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    text-align: center;
+}
+    
+.nav-top li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 10%;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #666;
+}
+
+article {
+    margin: 0;
+    padding: 1.5rem 5%;
+}
+
+h1 {
+    margin: 0 0 1.5rem;
+    padding: 0;
+    font-size: 2rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 50%
+}
+
+figure a,
+figure a.link,
+figure a:visited {
+    font-size: 0.75rem;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    margin: 0;
+    padding: 1.5rem 5% 6rem;
+    background-color: darkblue;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+.yoshi {
+    margin: 0 5% 3rem;
+    overflow: hidden;
+    
+    background-color: grey;
+    background-image: url(../images/yoshi1.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center center;
+    
+    box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
+    
+    border: solid .35rem rgba(255, 215, 0, .8);
+    border-radius: 1.25rem;
+}
+
+.nintendo-3ds {
+    margin: 0 5% 3rem;
+    overflow: hidden;
+    
+    background-color: grey;
+    background-image: url(../images/nintendo-3ds.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center center;
+    
+    box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
+    
+    border: solid .35rem rgba(255, 215, 0, .8);
+    border-radius: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
