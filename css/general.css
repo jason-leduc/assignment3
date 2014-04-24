@@ -177,3 +177,75 @@ figcaption {
     font-size: .75rem;
     margin: .5rem 0 0
 }
+
+.nintendo-2ds {
+    margin: 0 5% 3rem;
+    overflow: hidden;
+    
+    background-color: grey;
+    background-image: url(../images/nintendo-2ds.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center center;
+    
+    box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
+    
+    border: solid .35rem rgba(255, 215, 0, .8);
+    border-radius: 1.25rem;
+}
+
+.wii {
+    margin: 0 5% 3rem;
+    overflow: hidden;
+    
+    background-color: grey;
+    background-image: url(../images/wii.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center center;
+    
+    box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
+    
+    border: solid .35rem rgba(255, 215, 0, .8);
+    border-radius: 1.25rem;
+}
+
+.wii-u {
+    margin: 0 5% 3rem;
+    overflow: hidden;
+    
+    background-color: grey;
+    background-image: url(../images/wii-u.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center center;
+    
+    box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
+    
+    border: solid .35rem rgba(255, 215, 0, .8);
+    border-radius: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
