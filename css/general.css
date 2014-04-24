@@ -161,6 +161,17 @@ figcaption {
     border-radius: 1.25rem;
 }
 
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden
+}
+
+figcaption {
+    font-size: .75rem;
+    margin: .5rem 0 0
+}
+
 
 
 
