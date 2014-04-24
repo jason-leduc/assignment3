@@ -39,7 +39,6 @@ header {
 .logo {
     height: 3.5rem;
     width: auto;
-    background-color: darkblue;
     padding: .5rem 5%;
 }
 
@@ -48,14 +47,12 @@ header {
 }
 
 header {
-    background-color: blue;
     background-image: url(../images/header.svg);
 }
 
 .nav-top ul {
     margin: 0;
     padding: 0;
-    background-color: darkblue;
     text-align: center;
 }
     
@@ -225,27 +222,3 @@ figcaption {
     border: solid .35rem rgba(255, 215, 0, .8);
     border-radius: 1.25rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
