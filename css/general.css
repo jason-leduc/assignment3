@@ -34,12 +34,14 @@ body {
 header {
     background-image: url(..images/header.svg);
     overflow: hidden;
+    background-color: darkblue;
 }
 
 .logo {
-    height: 3.5rem;
-    width: auto;
-    padding: .5rem 5%;
+    width: 4.5rem;
+    height: auto;
+    float: left;
+    margin: 1.5rem 5%;
 }
 
 .nav-top {
@@ -48,12 +50,14 @@ header {
 
 header {
     background-image: url(../images/header.svg);
+    background-color: darkblue;
 }
 
 .nav-top ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: darkblue;
 }
     
 .nav-top li {
