@@ -35,6 +35,17 @@ header {
     background-image: url(..images/header.svg);
     overflow: hidden;
     background-color: darkblue;
+    background-repeat: no-repeat;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem;
+}
+
+article {
+    margin: 0;
+    padding: 1rem 5%;
 }
 
 .logo {
@@ -115,6 +126,7 @@ footer {
     margin: 0;
     padding: 1.5rem 5% 6rem;
     background-image: url(../images/header.svg);
+    background-repeat: no-repeat;
 }
 
 .nav-bottom ul {
