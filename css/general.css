@@ -36,6 +36,7 @@ header {
     overflow: hidden;
     background-color: darkblue;
     background-repeat: no-repeat;
+    width: auto;
 }
 
 p {
